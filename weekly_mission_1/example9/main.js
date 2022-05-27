@@ -5,7 +5,7 @@ const bulbasaur = new Pokemon("bulbasaur")
 const squirtle = new Pokemon("squirtle")
 const charmander = new Pokemon("charmander")
 
-pikachu.sayHello()
+pikachu.sayHello("HOLIS")
 pikachu.sayMessage("Heey!")
 
 bulbasaur.sayHello()
