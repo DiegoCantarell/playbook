@@ -17,14 +17,14 @@ Exporta la clase para que pueda ser importada en el archivo main.js.
 Este ejercicio es producto de todos los previos ejercicios.
 */
 
-module.exports =  class Pokemon {
+export default class Pokemon {
 	constructor (name){
 		this.name=name
 	}
 	
 	sayHello  (){
                 
-                console.log('[' + this.name + '] ' + "Hello world")
+                console.log('[' + this.name + '] ' + "IS SAYING HELLO")
         }
 
 	
