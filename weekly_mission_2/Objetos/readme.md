@@ -1,4 +1,4 @@
-Esta sección incluye ejemplos tales como:
+Esta sección incluye ejemplos de objetos  tales como:
 
 * Crear un objeto vacío
 
