@@ -11,3 +11,8 @@ export default class Viajero extends Explorer {
     return `${nameAndUsername}, Ciclo ${this.cycle}`
   }
 }
+
+
+
+
+
