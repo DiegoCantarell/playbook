@@ -1,3 +1,5 @@
+## 2. Operadores ##
+
 Ejemplos a desarrollar:
 
 * Ejemplo For Each
