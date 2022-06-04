@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 //CLASES Y OBJETOS
+=======
+>>>>>>> 9f23cc9402fa0923bada3adfd678749a351700ef
 // Ejemplo 1: Crear una clase vacía
 class Person {
 }
@@ -142,7 +145,13 @@ console.log(Toolbox.getMostUsefulTools())
 //console.log(toolbox.getMostUsefulTools()) // is not a function
 
 /*
+<<<<<<< HEAD
 HERENCIA: Nos permite relacionar clases entre sí y rehusar sus componentes
+=======
+
+HERENCIA: Nos permite relacionar clases entre sí y rehusar sus componentes
+
+>>>>>>> 9f23cc9402fa0923bada3adfd678749a351700ef
 */
 
 // Ejemplo  9: Herencia entre dos clases
@@ -203,9 +212,12 @@ console.log("Ejemplo 10: Overrinding methods")
 console.log(viajero1)
 console.log(viajero1.getNameAndUsername()) // Método de la clase padre
 console.log(viajero1.getGeneralInfo()) // Método de la clase hija
+<<<<<<< HEAD
 © 2022 GitHub, Inc.
 Terms
 Privacy
 Security
 Status
+=======
+>>>>>>> 9f23cc9402fa0923bada3adfd678749a351700ef
 
