@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+//<<<<<<< HEAD
 //CLASES Y OBJETOS
-=======
->>>>>>> 9f23cc9402fa0923bada3adfd678749a351700ef
+//=======
+//>>>>>>> 9f23cc9402fa0923bada3adfd678749a351700ef
 // Ejemplo 1: Crear una clase vacía
 class Person {
 }
@@ -121,7 +121,10 @@ console.log("Ejemplo 7: Setters para modificar los atributos del objeto")
 const missionCommanderNode = new MissionCommander("Carlo", "NodeJS")
 
 console.log(missionCommanderNode.getStudents) // 0 por default
-console.log(missionCommanderNode.getLives)// 0 por default
+console.log(missionCommanderNode.getLives)// 0 por defaul
+console.log("no get"+missionCommanderNode.students) // 0 por default
+console.log("no get"+missionCommanderNode.lives)// 0 por defaul
+
 
 // actualizamos los atributos por medio de los setters
 missionCommanderNode.setStudents = 100
@@ -212,7 +215,7 @@ console.log("Ejemplo 10: Overrinding methods")
 console.log(viajero1)
 console.log(viajero1.getNameAndUsername()) // Método de la clase padre
 console.log(viajero1.getGeneralInfo()) // Método de la clase hija
-<<<<<<< HEAD
+/*<<<<<<< HEAD
 © 2022 GitHub, Inc.
 Terms
 Privacy
@@ -220,4 +223,4 @@ Security
 Status
 =======
 >>>>>>> 9f23cc9402fa0923bada3adfd678749a351700ef
-
+*/
