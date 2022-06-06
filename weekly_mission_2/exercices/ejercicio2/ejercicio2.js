@@ -60,16 +60,29 @@ const explorers = [
 ]
 
 // Imprime el nombre (propiedad name) de cada explorer en la lista, usa FOR EACH
-console.log("\t*****Imprime el nombre (propiedad name) de cada explorer en la lista, usa FOR EACH\n")
+console.log("\t*****#1 Imprime el nombre (propiedad name) de cada explorer en la lista, usa FOR EACH\n")
 explorers.forEach(explorer => console.log(explorer.name))
 
 
 //Imprime el stack de cada explorer, usa FOR EACH
-console.log("\t*****Imprime el stack de cada explorer, usa FOR EACH\n")
+console.log("\t*****#2 Imprime el stack de cada explorer, usa FOR EACH\n")
 explorers.forEach(explorer => console.log(explorer.stack))
 
 //Crea una nueva lista con las listas de stacks de cada explorer, usa MAP
-console.log("\t*****Crea una nueva lista con las listas de stacks de cada explorer, usa MAP\n")
+console.log("\t*****#3 Crea una nueva lista con las listas de stacks de cada explorer, usa MAP\n")
 const explorerStack = explorers.map(function(explorer){return explorer.stack})
 console.log(explorerStack)
 
+
+//Obtén la lista de explorers que tengan en su stack "js", usa FILTER (para validar un elemento en un lista se usa el método includes)
+console.log("\t*****#4 Obtén la lista de explorers que tengan en su stack js, usa FILTER (para validar un elemento en un lista se usa el método includes)\n" )
+const explorersJs = explorers.filter((stackJs) => 
+	stackJs.stack.includes('js')
+)
+console.log(explorersJs)
+
+
+//Busca el primer explorer que sea de la CDMX, usa FIND
+console.log("\t***** #5 Busca el primer explorer que sea de la CDMX, usa FIND \n")
+const cityExplorer = explorers.find((explorer) => explorer.city == "CDMX")
+console.log(cityExplorer)
