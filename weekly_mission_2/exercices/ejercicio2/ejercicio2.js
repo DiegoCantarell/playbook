@@ -86,3 +86,12 @@ console.log(explorersJs)
 console.log("\t***** #5 Busca el primer explorer que sea de la CDMX, usa FIND \n")
 const cityExplorer = explorers.find((explorer) => explorer.city == "CDMX")
 console.log(cityExplorer)
+
+
+
+//Obtén la suma de todos los exercises_completed, usa REDUCE
+console.log("\t*****Obtén la suma de todos los exercises_completed, usa REDUCE\n")
+
+const resultExercisesCompleted = explorers.reduce((acc,element) =>  acc + element.exercises_completed,0)
+console.log(resultExercisesCompleted)
+
