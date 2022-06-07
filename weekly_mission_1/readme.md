@@ -1,4 +1,4 @@
-# Weekly Mission 1
+# Semana 1
 
 En este apartado se encuentran los siguientes ejercicios y ejemplos sobre modularización  usando CommonJS y  EcmaScript Modules ESM  en JavaScript.
 
