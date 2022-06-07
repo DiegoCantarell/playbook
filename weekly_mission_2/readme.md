@@ -1,4 +1,4 @@
-# Weekly Mission 2
+# Semana 2
 
 En esta sección trabajando con JavaScript se encuentran ejercicios y ejemplos de:
 
