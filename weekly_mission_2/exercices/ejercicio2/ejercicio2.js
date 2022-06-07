@@ -90,8 +90,15 @@ console.log(cityExplorer)
 
 
 //Obtén la suma de todos los exercises_completed, usa REDUCE
-console.log("\t*****Obtén la suma de todos los exercises_completed, usa REDUCE\n")
-
+console.log("\t*****#6 Obtén la suma de todos los exercises_completed, usa REDUCE\n")
 const resultExercisesCompleted = explorers.reduce((acc,element) =>  acc + element.exercises_completed,0)
 console.log(resultExercisesCompleted)
+
+//Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME 
+// Ejemplo 14: Uso de some, este método validará todos los elementos de la lista, y si alguno cumple con la validación indicada, regresará true, de lo contrario será false.
+
+console.log("*****\t #7 Obtén la validación si al menos uno de los explorers tiene la propiedad exercisesFinished en frontend como true, usa SOME\n")
+
+const areSomeTrue = explorers.some((b) => b.missions.onboarding.exercisesFinished == true || b.missions.frontend.exercisesFinished == true )
+console.log(areSomeTrue)
 
