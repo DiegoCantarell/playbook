@@ -1,5 +1,5 @@
 # Proyectos realizados en la semana 5
-| Proyecto | Práctica | Link al repo |
+| Proyecto |  Link al repo |
 | ------------- |:-------------:| -----:|
 |`Bot Telegram - fizzbuzz`\|[Link al repo](https://github.com/DiegoCantarell/FizzBuzz)|
 |`SQL`|[Link al repo](https://github.com/DiegoCantarell/fizzbuzz-1)|
