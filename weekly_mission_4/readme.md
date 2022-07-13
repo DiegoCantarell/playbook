@@ -9,4 +9,4 @@ Proyectos desarrollados en la semana 4:
 |`PR`|2|[Link al repo](https://github.com/DiegoCantarell/fizzbuzz-1)|
 |`Code Challenge`|3, 4, 5|[Link al repo](https://github.com/DiegoCantarell/code-challenge)|
 |`Trello`|6|[Link al repo](https://github.com/DiegoCantarell/trello-js)|
-|`Trello JS Fork`|7|[Link al repo](https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS)|
+|`Trello JS Fork`|7|[Link al repo](https://github.com/DiegoCantarell/trello-js)|
